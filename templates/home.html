@@ -1,15 +1,39 @@
 {% extends 'layout.html' %} {% block body %}
 <div class="section-container" id="home">
-  <h1 class="section-title">Home Page</h1>
+  <h1 class="section-title text">Home Page</h1>
   <!-- personal image box -->
   <!-- <div class="main-box">
     <div class="left-box"></div>
     <div class="right-box"></div>
   </div> -->
+  <div id="row-hero">
+    <div class="container">
+      <div class="buffer-top" id="hero">
+        <h1 class="fadein-fast">Web/Python Dev | Artist | Designer</h1>
+        <p class="fadein-fast">
+          Based out of Oakland, Ca. Specializing in custom themes and Python
+          development. If you are a business seeking a web presence or an
+          employer looking to hire, you can get in touch with me
+          <a href="/#contact">here</a>.
+        </p>
+        <div class="callToAction">
+          <a
+            href="http://goo.gl/forms/gYi9a11a7U"
+            target="_blank"
+            class="btn btn-freelance"
+            >I need a website<span class="icon-chevron-right"></span
+          ></a>
+          <a href="#contact" target="_blank" class="btn btn-hire"
+            >I'm looking to hire<span class="icon-chevron-right"></span
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <hr class="section-divider" />
 <div class="section-container" id="projects">
-  <h1 class="section-title">Projects</h1>
+  <h1 class="section-title text">Projects</h1>
   <div class="projects-container">
     <div class="project-box">
       <h1 class="project-title">Placeholder</h1>
@@ -46,7 +70,7 @@
 </div>
 <hr class="section-divider" />
 <div class="section-container" id="contact">
-  <h1 class="section-title">Contact</h1>
+  <h1 class="section-title text">Contact</h1>
 
   <div class="form-container">
     <form action="https://formspree.io/deandrevidal@aol.com" method="POST">
@@ -55,6 +79,57 @@
       </div>
       <div class="control">
         <input class="input" type="email" placeholder="Email" name="email" />
+      </div>
+      <div class="field">
+        <label class="label">Subject</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Consultation</option>
+              <option>Website: Function</option>
+              <option>Website: Design</option>
+              <option>Bug Review</option>
+              <option>Major Project</option>
+              <option>Writing</option>
+              <option>Art</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label">Time Frame</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option> >1 Week </option>
+              <option>1-2 Weeks Function</option>
+              <option>3-4 Weeks </option>
+              <option>1 Month</option>
+              <option>1-3 Months</option>
+              <option>3-6 Months</option>
+              <option>Undetermined</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="field has-addons">
+        <p class="control">
+          <span class="select">
+            <select>
+              <option>$</option>
+              <option>£</option>
+              <option>€</option>
+            </select>
+          </span>
+        </p>
+        <p class="control">
+          <input
+            class="input"
+            type="text"
+            placeholder="Budget"
+            class="budget"
+          />
+        </p>
       </div>
       <div class="control">
         <input
