@@ -1,0 +1,72 @@
+{% extends 'layout.html' %} {% block body %}
+<div class="section-container" id="home">
+  <h1 class="section-title">Home Page</h1>
+  <!-- personal image box -->
+  <!-- <div class="main-box">
+    <div class="left-box"></div>
+    <div class="right-box"></div>
+  </div> -->
+</div>
+<hr class="section-divider" />
+<div class="section-container" id="projects">
+  <h1 class="section-title">Projects</h1>
+  <div class="projects-container">
+    <div class="project-box">
+      <h1 class="project-title">Placeholder</h1>
+      <div class="project-img image is-16by9"></div>
+
+      <!-- maybe use icons here -->
+      <p class="project-links">[<a href="#">Github</a>][<a href="#">App</a>]</p>
+    </div>
+
+    <div class="project-box">
+      <h1 class="project-title">Placeholder</h1>
+      <div class="project-img image is-16by9"></div>
+
+      <!-- maybe use icons here -->
+      <p class="project-links">[<a href="#">Github</a>][<a href="#">App</a>]</p>
+    </div>
+
+    <div class="project-box">
+      <h1 class="project-title">Placeholder</h1>
+      <div class="project-img image is-16by9"></div>
+
+      <!-- maybe use icons here -->
+      <p class="project-links">[<a href="#">Github</a>][<a href="#">App</a>]</p>
+    </div>
+
+    <div class="project-box">
+      <h1 class="project-title">Placeholder</h1>
+      <div class="project-img image is-16by9"></div>
+
+      <!-- maybe use icons here -->
+      <p class="project-links">[<a href="#">Github</a>][<a href="#">App</a>]</p>
+    </div>
+  </div>
+</div>
+<hr class="section-divider" />
+<div class="section-container" id="contact">
+  <h1 class="section-title">Contact</h1>
+
+  <div class="form-container">
+    <form action="https://formspree.io/deandrevidal@aol.com" method="POST">
+      <div class="control">
+        <input class="input" type="text" placeholder="Full Name" name="name" />
+      </div>
+      <div class="control">
+        <input class="input" type="email" placeholder="Email" name="email" />
+      </div>
+      <div class="control">
+        <input
+          class="textarea"
+          type="textarea"
+          placeholder="Description"
+          name="content"
+        />
+      </div>
+      <input type="submit" value="Send" />
+    </form>
+  </div>
+</div>
+
+{% endblock %}

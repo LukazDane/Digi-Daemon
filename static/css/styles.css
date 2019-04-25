@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+li {
+  list-style: none;
+}
+#header_bg,
+.header {
+  z-index: 999;
+}
+#header_bg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  color: #666;
+  padding: 20px 40px 0 40px;
+  background-color: rgba(255, 255, 255, 1);
+  background-image: linear-gradient(
+    -45deg,
+    rgba(96, 31, 31, 0.4) 0%,
+    rgba(135, 199, 222, 0.6) 25%,
+    rgba(42, 200, 25, 0.2) 50%,
+    rgba(96, 31, 31, 0.4) 95%
+  );
+  transform: skewY(-6deg);
+  transform-origin: top left;
+  height: 23vh;
+}
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.columns {
+  margin-bottom: 0 !important;
+}
+
+.text {
+  background-color: white;
+  mix-blend-mode: screen;
+}
+div#logoBlock {
+  text-align: center;
+  padding-bottom: 1em;
+}
+.nav-item {
+  text-align: center;
+}
+/* ---- */
+.section-container {
+  min-height: 100vh;
+  padding-top: 15vh;
+  height: fit-content;
+}
+.section-title {
+  text-align: end;
+}
+
+#home {
+  background-color: #232323;
+  background-image: url("/static/images/paint-splatter-1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#projects {
+  background-color: #323232;
+  background-repeat: no-repeat;
+  background-image: url("/static/images/smoke-rising-2.png");
+  background-size: cover;
+}
+#contact {
+  background-color: #212121;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/static/images/smoke-rainbow-down.png");
+}
+.section-divider {
+  background-color: rgba(255, 255, 255, 1);
+  background-image: linear-gradient(
+    -45deg,
+    rgba(96, 31, 31, 0.4) 0%,
+    rgba(135, 199, 222, 0.6) 25%,
+    rgba(42, 200, 25, 0.2) 50%,
+    rgba(96, 31, 31, 0.4) 95%
+  );
+  height: 2vh;
+  margin: 0;
+}
+/* ------- */
+
+.main-box {
+  border: 1px solid white;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  margin-top: 5vh;
+}
+.left-box,
+.right-box {
+  /* border: 1px solid white; */
+  display: table-cell;
+  min-width: 0px;
+  width: 200px;
+  height: inherit;
+  font-size: -webkit-xxx-large;
+  text-align: -webkit-center;
+  color: white;
+  background-color: white;
+}
+.left-box {
+  background-image: linear-gradient(
+    -45deg,
+    rgba(96, 176, 241, 0.4) 0%,
+    rgba(135, 199, 222, 0.6) 25%,
+    rgba(42, 200, 25, 0.2) 50%,
+    rgba(96, 31, 31, 0.4) 95%
+  );
+}
+.left-box:hover {
+  width: 400px;
+}
+.right-box {
+  background-image: linear-gradient(
+    45deg,
+    rgba(96, 31, 31, 0.4) 0%,
+    rgba(135, 199, 222, 0.6) 25%,
+    rgba(42, 200, 25, 0.2) 50%,
+    rgba(96, 31, 31, 0.4) 95%
+  );
+}
+.right-box:hover {
+  width: 400px;
+}
+/* ------- */
+
+.projects-container {
+  /* border: 1px solid white; */
+  justify-content: space-evenly;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.project-box {
+  /* border: 1px solid white; */
+  margin: 2vh auto;
+}
+
+.project-img {
+  width: 40vw;
+  /* height: 25vh; */
+  background-color: slateblue;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(96, 176, 241, 0.4) 0%,
+    rgba(135, 199, 222, 0.6) 25%,
+    rgba(42, 200, 25, 0.2) 50%,
+    rgba(96, 31, 31, 0.4) 95%
+  );
+  clear: both;
+}
+
+.form-container {
+  border: 1px solid white;
+  width: 80vw;
+}
