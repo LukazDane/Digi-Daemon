@@ -25,12 +25,13 @@ PORT = int(os.environ.get('PORT', 9000))
 
 app = Flask(__name__)
 app.secret_key = 'elsdhfsdlfdsjfkljdslfhjlds'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/lukazphelps/Desktop/Grapplr/grapplr.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////Users/lukazphelps/Desktop/digi-daemon/daemon.db'
 db = SQLAlchemy(app)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index(name=None):
-        return render_template('home.html')
+   
+    return render_template('home.html')
 
 @app.route('/Lukaz')
 def about(name=None):

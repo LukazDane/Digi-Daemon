@@ -3,7 +3,10 @@
   padding: 0;
   scroll-behavior: smooth;
 }
-
+body {
+  overflow: hidden;
+  background-color: #212121;
+}
 li {
   list-style: none;
 }
@@ -25,14 +28,67 @@ li {
     rgba(42, 200, 25, 0.2) 50%,
     rgba(96, 31, 31, 0.4) 95%
   );
-  transform: skewY(-6deg);
-  transform-origin: top left;
-  height: 23vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 0 100%);
+
+  height: 25vh;
 }
 .header {
   position: fixed;
   left: 0;
   right: 0;
+}
+footer {
+  /* width: 100%;
+  z-index: 999;
+  position: absolute;
+  font-size: -webkit-xxx-large; */
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #212220 url("/static/images/bg.jpg") fixed no-repeat bottom left;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.125rem;
+  line-height: 1.5;
+  padding-top: 5rem;
+}
+footer div p {
+  text-align: center;
+}
+.social {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+  margin-top: 15vh;
+}
+.social a {
+  color: white;
+  font-size: -webkit-xxx-large;
+}
+#footer_bg_1,
+#footer_bg_2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  color: #666;
+  padding: 20px 40px 0 40px;
+  background-color: rgba(255, 255, 255, 1);
+  background-image: linear-gradient(
+    -45deg,
+    rgba(96, 31, 31, 0.4) 0%,
+    rgba(135, 199, 222, 0.6) 25%,
+    rgba(42, 200, 25, 0.2) 50%,
+    rgba(96, 31, 31, 0.4) 95%
+  );
+  transform: skewY(-6deg);
+  transform-origin: bottom left;
+  height: 23vh;
+}
+#footer_bg_2 {
+  transform: skewY(6deg);
+  transform-origin: bottom right;
 }
 .columns {
   margin-bottom: 0 !important;
@@ -75,7 +131,7 @@ div#logoBlock {
 }
 /* testing */
 #row-hero {
-  padding: 115px 0 200px;
+  padding: 200px 0 200px;
 }
 #hero h1 {
   font-size: 50px;
@@ -88,8 +144,6 @@ div#logoBlock {
 #hero p {
   font-size: 16px;
   line-height: 26px;
-}
-#hero p {
   padding: 45px 0 18px;
   margin-bottom: 20px;
 }
@@ -139,6 +193,7 @@ p {
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url("/static/images/smoke-rainbow-down.png");
+  margin-bottom: -200px;
 }
 .section-divider {
   background-color: rgba(255, 255, 255, 1);
