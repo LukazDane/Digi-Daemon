@@ -146,6 +146,7 @@ div#logoBlock {
   line-height: 26px;
   padding: 45px 0 18px;
   margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .fadein-fast {
   -webkit-animation: a 2s;
@@ -269,17 +270,23 @@ p {
 .project-img {
   width: 40vw;
   /* height: 25vh; */
-  background-color: slateblue;
+  /* background-color: slateblue;
   background-image: linear-gradient(
     -45deg,
     rgba(96, 176, 241, 0.4) 0%,
     rgba(135, 199, 222, 0.6) 25%,
     rgba(42, 200, 25, 0.2) 50%,
     rgba(96, 31, 31, 0.4) 95%
-  );
+  ); */
   clear: both;
+  padding-top: 0 !important;
+  overflow: hidden;
 }
-
+.myVideo {
+  max-height: 25vh;
+  display: flex;
+  margin: auto;
+}
 .form-container {
   border: 1px solid white;
   width: 80vw;
