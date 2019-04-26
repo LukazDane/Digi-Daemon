@@ -282,7 +282,7 @@ p {
   padding-top: 0 !important;
   overflow: hidden;
 }
-.myVideo {
+video.myVideo {
   max-height: 25vh;
   display: flex;
   margin: auto;
