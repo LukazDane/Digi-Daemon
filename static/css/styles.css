@@ -282,6 +282,13 @@ p {
   padding-top: 0 !important;
   overflow: hidden;
 }
+
+.not-active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: line-through;
+  color: black;
+}
 video.myVideo {
   max-height: 25vh;
   display: flex;
