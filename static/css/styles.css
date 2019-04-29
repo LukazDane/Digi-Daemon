@@ -320,3 +320,27 @@ video.myVideo.most-recent {
   height: 70vh;
   max-height: 70vh;
 }
+
+/* about me */
+.abt-img {
+  height: 200px;
+  width: 200px;
+  background-color: skyblue;
+  margin: auto;
+  border-radius: 70px;
+  margin-top: 1vh;
+  background-image: url(/static/images/me.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-container {
+  text-align: center;
+  margin: auto 5vh;
+}
+
+.text-container p {
+  font-size: x-large;
+}
+/* end about me */
