@@ -337,7 +337,9 @@ video.myVideo.most-recent {
   font-size: x-large;
 }
 /* end about me */
-
+.card {
+  margin: 5vh auto;
+}
 .card-body {
   text-align: center;
   background-color: #232323;
