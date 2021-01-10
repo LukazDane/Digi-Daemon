@@ -1,0 +1,140 @@
+{
+  "main": {
+    "name": "Luke Harrison",
+    "occupation": "developer, atist, and consultant.",
+    "description": "I am a full-stack web developer, visual artist, web consultant, and wearer of many hats.",
+    "image": "profilepic.jpg",
+    "bio": "I am a full-stack web developer, a student of life, and an artist. I view technology as away of monitoring the world’s progress and as a means of giving back to underserved communities. With my work I seek to employ creative, thought provoking solutions to areas of community development, social inequalities, and technological evolution.",
+    "contactmessage": "Feel free to contact me about my previous work, job offers, or commisions.",
+    "email": "Luke@hackthehood.org",
+    "phone": "510-21304068",
+    "address": {
+      "city": "Seattle",
+      "state": "Washington"
+    },
+    "website": "https://docs.google.com/document/d/1DrEvJVWbeYvatHmS617AuN7oGu2XouFb17T5hEAyLhM/edit?usp=sharing",
+    "resumedownload": "https://docs.google.com/document/d/1DrEvJVWbeYvatHmS617AuN7oGu2XouFb17T5hEAyLhM/edit?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/LukazDaemon",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/lukazdane/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/LukazDane",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "Makeschool",
+        "degree": "Candiddate for Bachelors in Applied Computer Science",
+        "graduated": "August 2021",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "Awesome Design Studio",
+        "title": "Senior UX God ",
+        "years": "March 2010 - Present",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company": "Super Cool Studio",
+        "title": "Junior bug fixer",
+        "years": "March 2007 - February 2010",
+        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "83%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Luke is a brilliant problem solver with an eye on efficiency. Luke is capable of synthesizing complex concepts into smaller easier to understand pieces. He was an asset to my team and I would gladly work with him again.",
+        "user": "RC Brown"
+      },
+      {
+        "text": "That Luke Harrison must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
