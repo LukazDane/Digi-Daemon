@@ -68,6 +68,6 @@ URLObject==2.4.3
 virtualenv==16.4.3
 virtualenv-clone==0.5.2
 wcwidth==0.1.7
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 wrapt==1.11.1
 WTForms==2.2.1
